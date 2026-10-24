@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clarity Finance Terms of Use</title>
+<link rel="icon" href="data:,">
+<style>
+:root{color-scheme:light dark;--bg:#ffffff;--text:#1c2430;--muted:#5b6675;--rule:#dde3ea;--accent:#1d63c4}
+@media (prefers-color-scheme:dark){:root{--bg:#0f141a;--text:#e6ebf1;--muted:#9aa6b2;--rule:#2a3440;--accent:#7ab0ff}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Segoe UI",-apple-system,Roboto,Helvetica,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:28px 20px 64px}
+header{display:flex;align-items:center;gap:16px}
+header img{width:64px;height:64px;border-radius:14px;flex:none}
+h1{font-size:28px;line-height:1.25;margin:0}
+.meta{color:var(--muted);font-size:14px;margin:10px 0 20px}
+h2{font-size:20px;line-height:1.3;margin:28px 0 8px;padding-top:14px;border-top:1px solid var(--rule)}
+p{margin:0 0 12px}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<header><img src="logo.png" alt="Clarity logo" width="64" height="64"><h1>Clarity Finance Terms of Use</h1></header>
+<p class="meta">Last updated October 24, 2026. This page: https://marktomita.github.io/clarity-legal/terms.html. See also the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<p>These terms and conditions apply to the Clarity Finance app (hereby referred to as "Application"), a Windows desktop application distributed via the Microsoft Store, that was created by Clarity Finance Software (hereby referred to as "Service Provider") as a Commercial service.</p>
+<p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.</p>
+<p>Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.</p>
+<p>The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.</p>
+<p>The Application stores user data, including transaction records, account information, investment and property records, budgets, goals, and any files you attach to records, such as receipt photographs and PDFs, locally on your device. It is your responsibility to maintain the security of your device and access to the Application. This includes keeping your operating system updated, using appropriate device-level security measures such as disk encryption and strong account credentials, and maintaining your own backups of important data.</p>
+<p>In the Windows app, automatic backups are saved in your OneDrive folder when OneDrive is set up, and OneDrive copies them to your OneDrive account. They include your attached files, each kept once in a folder beside the backups, which OneDrive copies as well. Keeping that account secure, and deleting backups you no longer want, is your responsibility; uninstalling the Application does not delete them.</p>
+<p>You choose where the Windows app keeps its data folder. If you choose a folder that a cloud service syncs, that service will copy your records, and a sync that puts back an older copy of a file can damage them; the Application warns you when your data folder is in such a folder, and that choice and its risk are yours.</p>
+<p>You are responsible for the content you place into the Application, including any picture or PDF you attach to a record and any photo you take with your camera. You must have the right to store and use that content, and you should not attach material that you are not permitted to keep. Backups created by the Application include your attached files; export files, such as CSV files and printed reports, do not. Automatic and rolling backups keep each attached file once in a folder beside them, so a backup copied away from that folder restores its attached files only while the Application can still find them, in a folder beside the copy or in this PC's backup or rolling backup folder, and otherwise restores everything except them; a backup you download carries its files inside it. A backup saved with Back Up Now in Settings also carries its attached files inside it.</p>
+<p>The Service Provider strongly advises against modifying the Application or its installed files, bypassing operating system security features, or running the Application on a compromised device. Such actions could expose your data to malware, compromise your device's security, and may result in the Application not functioning correctly or at all.</p>
+<p>Please be aware that the Service Provider does not assume responsibility for certain aspects of your use of the Application. The Application is designed to run entirely on your local device for its core functionality, and therefore does not require an active internet connection for most operations.</p>
+
+<h2 id="ai">AI Credentials and Third-Party AI Services</h2>
+<p>The optional AI features (AI Insights, reading a receipt photo, and the AI part of assisted entry, which asks your AI service to fill transaction fields your history cannot) require you to obtain your own credentials from an AI service provider of your choosing. Filling fields from your own history and filling in a transaction, goal or budget from a sentence you speak or type work on your device without any credentials. The Application ships with no AI provider configured and no credentials of any kind. To use these features, you must enter an API endpoint address, a model identifier, and your own API key in the Application's settings. If you do not configure these settings, the AI features are unavailable and the remainder of the Application functions normally.</p>
+<p>Assisted entry is additionally off by default. Even with credentials configured, no request is made from the transaction form until you explicitly turn it on.</p>
+<p>Any fees, usage charges, rate limits, quotas, suspensions, or contractual obligations arising from your account with your chosen AI service provider are solely your responsibility. The Service Provider does not supply, subsidize, resell, or reimburse AI service credentials or usage.</p>
+<p>The Service Provider does not select, endorse, vet, or maintain any relationship with the AI service provider you choose, and makes no representation or warranty that any particular provider, endpoint, or model will be compatible with, or function correctly within, the Application. You are responsible for safeguarding your API key and for complying with your chosen provider's terms of service and acceptable use policies.</p>
+<p>The AI features require an active internet connection, except a model you run on your own PC or local network and use from the Windows app.</p>
+<p>To the extent the law allows, the Service Provider cannot be held responsible if they do not function due to lack of internet connectivity, network configuration issues, incorrect configuration settings, invalid or expired credentials, or the unavailability, modification, pricing, or discontinuation of any third-party AI service.</p>
+<p>AI requests, including your API key, go straight from your device to the AI service you choose: in the Windows app from the Application itself, and in Clarity's web app from your browser. They do not pass through any server operated by the Service Provider. In the Windows app the AI service may also be at an address on your own PC or local network; Clarity's web app accepts only https addresses on the public internet, and an AI service that does not accept requests from a browser can be used from the Windows app instead. A reply that takes longer than about five minutes fails. Windows app versions before 1.0.658 send AI requests through a proxy operated by the Service Provider, which the app calls Clarity's relay; the relay keeps no copy of them, and it stops answering on December 22, 2026, after which those versions ask you to update.</p>
+<p>A request may be sent once more automatically, at most once for each of these reasons: an analysis whose reply cannot be read, a refusal of one of the request's settings, an empty reply from a model that used its whole allowance, and an address given without a path that is not found. Each request may use up to 16,384 output tokens of your AI account's allowance, and a resend for more room up to 32,768, so one analysis or chat message can use more than one request's allowance.</p>
+<p>The Service Provider may change, limit or withdraw the relay used by versions before 1.0.658 at any time; if it does, the AI features of those versions stop working and the rest of the Application is unaffected.</p>
+
+<h2 id="speech">Speech, Assisted Entry and Filled-In Entries</h2>
+<p>The Application can fill in a new transaction, goal or budget from one sentence you speak or type, and can fill fields on a new transaction from patterns in your own existing records; both happen on your device, and nothing is saved until you confirm it. With your own AI service set up, it can also read the payee, the total and the date from a receipt photo you choose; that photo goes to your AI service, and nothing is saved until you confirm it.</p>
+<p>Filling fields from your own history is part of assisted entry and is off until you turn on Autofill transaction fields in Settings; if you have set up an AI connection, turning it on also lets the Application ask your AI service about the fields your history cannot fill, with no separate switch.</p>
+<p>In the Windows app, a spoken sentence is recognized by Windows' own speech recognition on your PC and the Application receives only the recognized text; where speech recognition is not available, the microphone is hidden and you type the sentence instead. The Application never captures, transmits or retains audio. In the web version, speech recognition is your browser's: your browser's speech service, which may be an online service run by your browser's maker, hears what you say under its own terms and privacy policy, and the Application receives only the text.</p>
+<p>Filled-in fields are a suggestion only. Nothing is written to your records until you review them and confirm them with Save, and you remain responsible for the accuracy of anything you save. Suggestions may be incomplete or wrong, particularly where the wording is ambiguous. Field-filling and duplicate warnings are conveniences, not verification. To the extent the law allows, the Service Provider accepts no liability for a duplicate, a misfiled entry, or an incorrect value that you confirm.</p>
+
+<h2 id="investments">Investments and Property</h2>
+<p>The Application lets you record investments, property and loans by hand, or import a broker's trade or activity file, which is read on your device and saves only the rows you confirm: trades, quantities, prices, commissions, holdings, options, futures, short sales, money borrowed on margin, bonds, CDs and Treasury bills, employer stock awards, property costs, improvements and values, the income and expenses you assign to a property, and a loan's rate and term. It fetches no prices or quotes, so values reflect the prices you enter and may be out of date. Sales are matched to your oldest purchases first unless you choose the lots, which may differ from the method your broker or tax authority uses. Options and bonds are valued at the last price you enter, and at their cost until you enter one; futures and employer stock awards are valued by the simple rules the Application shows beside them, such as counting unvested shares as nothing and moving each futures settlement into cash. None of these are market valuations. A loan payment is split into interest and principal from the rate and term you enter, and the split may differ from your lender's. Gains, losses, days held and yearly totals are calculated from your entries for information only; they are not tax figures, apply no tax rule, and do not replace the statements your broker or a qualified professional provides.</p>
+
+<h2 id="built-in-browser">Web Links and the Built-in Browser</h2>
+<p>Web links in the Application, such as links in AI answers, links in Help and addresses you type, open in the Application's built-in browser unless you choose Your Browser for web links in Settings. The sites you open there belong to third parties, and their own terms and policies apply to them. The Service Provider does not control, check or endorse those sites and cannot promise that they, or anything you download from them, are free of malware, viruses, phishing or other harmful content. You visit sites and download files at your own risk. To the extent the law allows, the Service Provider is not liable for, and you hold the Service Provider harmless from, any loss or damage caused by third-party sites, links, downloads or content, whether you reach them through the built-in browser, your own browser or a link in the Application.</p>
+
+<h2 id="data-loss">Lost or Damaged Data</h2>
+<p>Your records, attached files, settings and backups can be lost or damaged, for example by a device failure, a deleted or overwritten file, a cloud service that puts back an older copy, a lost passcode and recovery code, malware, or an error in the Application itself. Keep your own backups of anything you cannot afford to lose, and check from time to time that they open. To the extent the law allows, the Service Provider is not liable for lost, corrupted or damaged data, including the data the Application itself keeps and its backups, or for any loss that follows from it.</p>
+
+<h2 id="cheques">Cheque Printing</h2>
+<p>Where the Application offers cheque (check) printing, it only lays out and prints what you enter. You are responsible for the cheque stock, the printer and its settings, the bank and account details, signatures, keeping blank and printed cheques safe, and checking every printed cheque before you use it. To the extent the law allows, the Service Provider is not liable for, and you hold the Service Provider harmless from, any loss from forged, altered, stolen, duplicated or misprinted cheques, from a bank's refusal of a cheque, or from fraud involving cheques printed with the Application.</p>
+
+<h2 id="local-laws">Following the Law Where You Use the Application</h2>
+<p>You are responsible for knowing and following the laws that apply where you use the Application, including laws on VPNs, on internet use, and on the sites you open in it. The built-in browser reaches the web the way your device's own browsers do and does not get around restrictions that apply where you are.</p>
+
+<h2 id="reminders">Reminders and Alerts</h2>
+<p>Reminders and alerts, such as bill reminders and backup notices, are a convenience. They appear only while the Application is open and your system allows its notifications, and they can be late, missed or wrong, for example when the Application is closed, your device is off or asleep, notifications are turned off, or a due date or amount you entered is wrong. You remain responsible for paying bills and meeting deadlines on time. To the extent the law allows, the Service Provider is not liable for missed or late payments, late fees, penalties, interest or other loss that follows from a reminder or alert that did not appear, appeared late or was wrong.</p>
+
+<h2 id="app-lock">App Lock, Encryption and Your Recovery Code</h2>
+<p>If you set an app lock or turn on encryption, your passcode, your recovery code and your device's own unlock are the only ways to open them. The Service Provider never receives your passcode or recovery code and cannot reset them or open your data. If you lose your passcode and your recovery code and cannot use your device's unlock, your encrypted data and backups cannot be recovered by anyone, including the Service Provider. Keep your recovery code somewhere safe, away from your device.</p>
+
+<h2 id="other-people">Other People's Details and Invoices</h2>
+<p>You may record details about other people in the Application, such as payees, customers, vendors and tenants. You are responsible for having the right to keep and use those details, for keeping them accurate, and for meeting any duty the law where you are places on you about them. Invoices, receipts and other documents you make with the Application are yours: you are responsible for their content and for following the invoicing and record-keeping rules that apply to you.</p>
+
+<h2 id="store">Microsoft Store Purchases</h2>
+<p>If you get the Application, or pay for anything in it, through the Microsoft Store, the Microsoft Store's own license terms, refund policy and terms of sale apply to that purchase, alongside these terms. Microsoft handles the payment; the Service Provider never receives your payment details.</p>
+
+<h2 id="age">Who Can Use the Application</h2>
+<p>You may use the Application only if you are old enough to agree to these terms where you live, or if a parent or legal guardian has agreed to them for you. The Application is not directed to children under 13.</p>
+
+<h2 id="lawful-use">Lawful Use</h2>
+<p>You may not use the Application for anything unlawful, to harm others, or to keep or process information you have no right to. You may not use, download or export the Application where sanctions or export laws forbid it, or if you are a person those laws bar from receiving it.</p>
+
+<h2 id="trademarks">Names and Trademarks of Others</h2>
+<p>The Application and these terms may mention banks, brokers, card networks, AI services, map sites, social networks, operating systems and other companies and products by name. Those names and trademarks belong to their owners. Mentioning them does not mean that the Service Provider is affiliated with, endorsed by or sponsored by any of them.</p>
+
+<h2 id="feedback">Feedback</h2>
+<p>If you send the Service Provider ideas, suggestions or other feedback about the Application, the Service Provider may use them freely, without paying you or owing you anything, and is not obliged to use them.</p>
+
+<h2 id="open-source">Open-Source Components</h2>
+<p>The Application includes open-source software, such as its application framework, libraries and icon sets. Each of those components is licensed under its own license, and nothing in these terms limits the rights those licenses give you in those components.</p>
+
+<h2 id="share">Share Buttons</h2>
+<p>The share buttons in Settings open the chosen social network or messaging service, which has its own terms and policies. Anything you post or send there is yours and is handled under that service's terms; the Service Provider does not control it.</p>
+
+<h2 id="language-currency">Language and Currency</h2>
+<p>The Application is available in a number of languages. Translations are provided for convenience and may be incomplete or imprecise; where a translation and the English text differ, the English text governs.</p>
+<p>The Application allows you to display amounts in a chosen currency and to assign a currency to an account. Changing a currency setting changes how an amount is formatted and labelled. It does not convert the amount, apply an exchange rate, or revalue any balance. The Application looks up no exchange rates. If you type an exchange rate on an account, the Application can show a total across currencies converted at your rate, labelled as converted, beside the totals it keeps apart by currency; it converts no figure in your records. To the extent the law allows, the Service Provider accepts no liability for any decision made on a converted total or on the assumption that the Application converts amounts.</p>
+
+<h2 id="disclaimers">Disclaimers and Limitation of Liability</h2>
+<p>In terms of the Service Provider's responsibility for your use of the Application, it is important to note that while they strive to ensure that it is accurate and reliable, the Application is provided "AS IS" without warranty of any kind, to the extent the law allows. The financial calculations, summaries, projections, and AI-generated insights produced by the Application are intended as informational aids only and should not be relied upon as professional financial, tax, investment, or legal advice. You should consult a qualified professional for advice specific to your situation. To the extent the law allows, the Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying on the Application.</p>
+<p>The Application incorporates Artificial Intelligence (AI) technologies to provide certain optional features. These features are inoperative unless you configure your own AI service credentials as described above. By using these features, you acknowledge and agree that AI is used to process data and deliver functionalities. AI-generated content may contain errors or inaccuracies and should be reviewed before being acted upon. Because you select the AI service provider and model, the quality, accuracy, and behavior of AI-generated content depend on the provider you choose and are outside the Service Provider's control.</p>
+<p>Nothing in these terms excludes or limits any liability, or takes away any right, that the law where you live does not allow to be excluded, limited or taken away.</p>
+
+<h2 id="web-app">Clarity's Web App</h2>
+<p>The same application is also available as Clarity's web app, which runs in a web browser. These terms describe the Windows app. Where the two differ, the difference lies in how your device stores your data, in the update mechanism, in automatic backups, which only the Windows app makes, in how speech is recognized, in that only the Windows app can use an AI server on your own PC or local network, in that only the Windows app has the built-in browser, and in that Clarity's web app is loaded from its website each time and so needs an internet connection to open; the terms above otherwise apply to both.</p>
+
+<h2 id="updates">Updates and Termination</h2>
+<p>The Service Provider may release updates to the Application from time to time, which are distributed through the Microsoft Store. The system requirements for the Application may change over time, and you may need to install updates to continue using the Application. The Service Provider does not guarantee that it will continue to update the Application or that future updates will be compatible with all Windows versions. You agree to accept updates to the Application when they are made available.</p>
+<p>The Service Provider may also choose to discontinue the Application and may terminate its availability at any time without providing termination notice to you. Unless the Service Provider informs you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the Application and uninstall it from your device.</p>
+
+<h2 id="changes">Changes to These Terms and Conditions</h2>
+<p>The Service Provider may periodically update these Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.</p>
+<p>These terms and conditions are effective as of 2026-10-24.</p>
+
+<h2 id="general">General</h2>
+<p>If any part of these terms is found invalid or unenforceable, the rest stays in effect, and that part is applied as far as the law allows. These terms, together with the Privacy Policy, are the entire agreement between you and the Service Provider about the Application, apart from the Microsoft Store's terms for anything you get through it. If the Service Provider does not enforce a part of these terms at some time, it has not waived its right to enforce it later.</p>
+
+<h2 id="governing-law">Governing Law</h2>
+<p>These terms are governed by the laws of the State of Arkansas, USA, without regard to its rules on conflicts of law. This choice does not take away any protection that the law of the place where you live gives you and that cannot be set aside by agreement.</p>
+
+<h2 id="contact">Contact Us</h2>
+<p>If you have any questions or suggestions about these Terms and Conditions, please do not hesitate to contact the Service Provider at marktomita@gmail.com.</p>
+</main>
+</body>
+</html>
